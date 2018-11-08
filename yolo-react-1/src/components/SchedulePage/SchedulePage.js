@@ -163,7 +163,7 @@ export default class SchedulePage extends Component {
           </div>
           <a
             className="primary-cta"
-            href="https://calendar.google.com/calendar?cid=c3FtMnVkaTFhZGY2ZHM3Z2o5aDgxdHVldDhAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ"
+            href="https://calendar.google.com/calendar?cid=NnY0aDRhYmsxMmlrZGtpOTRydWwxZWQ4YThAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ"
             target="_blank"
           >
             +
