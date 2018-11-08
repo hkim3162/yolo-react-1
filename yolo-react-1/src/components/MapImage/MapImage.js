@@ -1,13 +1,9 @@
 
 import React, { Component } from 'react';
-import { render } from 'react-dom'
 import PhotoAPI from '../../api/PhotoAPI';
 import Lightbox from 'react-images';
 import Gallery from 'react-photo-gallery';
 import './MapImage.css';
-
-
-
 
 
 class MapImage extends Component {

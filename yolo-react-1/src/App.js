@@ -6,8 +6,8 @@ import { BrowserRouter, Route } from 'react-router-dom';
 
 import './App.css';
 import HomePage from './pages/HomePage.js';
-import MapImage from './components/MapImage/MapImage.js'
 import AddPhotoPage from './pages/AddPhotoPage';
+import SchedulePage from './components/SchedulePage/SchedulePage'
 require('dotenv').config()
 
 class App extends Component {
@@ -22,6 +22,8 @@ class App extends Component {
         <div>
          <Route exact path="/" component={HomePage} />
          <Route exact path="/add-photos" render={renderAddPhotoPage} />
+         <Route exact path="/schedule" component={SchedulePage} />
+
 {/*          
           <Route exact path="/articles/:articleID" component={ArticlePage} />
           <Route exact path="/sections/:sectionID" component={SectionPage} />
